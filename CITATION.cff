@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: AI Governance Knowledge Repository
+abstract: >
+  A public reference repository for AI governance infrastructure, synthetic
+  data systems, and EU AI Act implementation. Includes machine-readable
+  schemas, regulatory implementation notes, architecture reference
+  documentation, and glossary definitions covering AI artifact certification,
+  decision logging, audit trails, and EU AI Act compliance.
+authors:
+  - name: SyntheticDataNews
+url: https://syntheticdatanews.com
+repository-code: https://github.com/synthetic-data-news/ai-governance-knowledge
+license: MIT
+keywords:
+  - ai-governance
+  - synthetic-data
+  - eu-ai-act
+  - decision-logging
+  - artifact-certification
+  - audit-trails
+  - compliance
+  - machine-learning

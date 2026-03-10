@@ -51,12 +51,14 @@ examples/    → verification and implementation examples
 
 | File | Description |
 |------|-------------|
-| [schemas/artifact-certificate.schema.json](schemas/artifact-certificate.schema.json) | Certificate field specification |
-| [schemas/decision-record.schema.json](schemas/decision-record.schema.json) | Decision log record schema |
-| [eu-ai-act/article-12-ai-logging.md](eu-ai-act/article-12-ai-logging.md) | Article 12 logging requirements |
-| [reference/ai-governance-stack.md](reference/ai-governance-stack.md) | Governance layer overview |
-| [reference/ai-audit-architecture.md](reference/ai-audit-architecture.md) | Audit system architecture |
-| [examples/decision-record-example.json](examples/decision-record-example.json) | Example decision record |
+| [eu-ai-act/high-risk-ai-classification.md](eu-ai-act/high-risk-ai-classification.md) | Is my AI system high-risk? Annex III guide |
+| [schemas/decision-record.schema.json](schemas/decision-record.schema.json) | Decision log record schema (Article 12) |
+| [schemas/artifact-certificate.schema.json](schemas/artifact-certificate.schema.json) | AI artifact certificate schema |
+| [schemas/audit-trail.schema.json](schemas/audit-trail.schema.json) | Full signed audit trail export schema |
+| [reference/synthetic-data-vs-real-data-compliance.md](reference/synthetic-data-vs-real-data-compliance.md) | Does synthetic data eliminate compliance obligations? |
+| [reference/ai-audit-architecture.md](reference/ai-audit-architecture.md) | End-to-end audit system architecture |
+| [reference/ai-governance-stack.md](reference/ai-governance-stack.md) | Five-layer AI governance stack |
+| [examples/decision-record-example.json](examples/decision-record-example.json) | Example tamper-evident decision record |
 
 ---
 
