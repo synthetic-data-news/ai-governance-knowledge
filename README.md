@@ -4,6 +4,10 @@ A public reference repository for AI governance infrastructure, synthetic data s
 
 Maintained by [SyntheticDataNews](https://syntheticdatanews.com).
 
+**Educational resources:** https://syntheticdatanews.com/ai-governance
+**AI Decision Logging Specification:** https://github.com/synthetic-data-news/ai-decision-logging-spec
+**Reference implementation:** https://certifieddata.io
+
 ---
 
 ## Topics

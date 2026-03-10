@@ -1,0 +1,93 @@
+Project: AI Governance Knowledge Base
+
+Description:
+Open reference library for AI governance concepts, regulatory context, schemas, and
+architectural patterns. Maintained by SyntheticDataNews as a public educational resource.
+
+Repository:
+https://github.com/synthetic-data-news/ai-governance-knowledge
+
+Publisher:
+https://syntheticdatanews.com
+
+Reference implementation platform:
+https://certifieddata.io
+
+---
+
+Purpose:
+Provide developers, compliance teams, and policy practitioners with structured reference
+material on AI artifact certification, AI decision logging, synthetic data governance,
+and EU AI Act obligations.
+
+---
+
+Contents:
+
+Glossary:
+  glossary/ai-artifact-certification.md     — What AI artifact certificates are and why they matter
+  glossary/decision-lineage.md              — Decision lineage, audit trails, hash chaining
+  glossary/synthetic-data-governance.md     — Synthetic data in regulatory and compliance context
+
+EU AI Act:
+  eu-ai-act/article-10-data-governance.md   — Data governance requirements for high-risk AI
+  eu-ai-act/article-12-ai-logging.md        — Automatic logging obligations for high-risk AI
+  eu-ai-act/article-19-log-retention.md     — Log retention periods and obligations
+  eu-ai-act/high-risk-ai-classification.md  — Annex III classification guide (all 8 domains)
+
+Schemas:
+  schemas/artifact-certificate.schema.json  — AI artifact certificate (JSON Schema draft 2020-12)
+  schemas/decision-record.schema.json       — AI decision record
+  schemas/audit-trail.schema.json           — Audit trail export
+
+Reference architecture:
+  reference/ai-governance-stack.md          — Three-layer AI governance architecture
+  reference/ai-audit-architecture.md        — Technical patterns for AI audit systems
+  reference/synthetic-data-vs-real-data-compliance.md — Compliance comparison
+
+Examples:
+  examples/verify-certificate.js            — Node.js certificate verification (no SDK required)
+  examples/decision-record-example.json     — Example AI decision record with hash chain
+
+---
+
+Key concepts:
+  AI artifact certification
+  AI decision logging
+  audit trails
+  hash chaining
+  Ed25519 signatures
+  RFC 8785 canonicalization
+  synthetic data governance
+  EU AI Act compliance
+  high-risk AI systems
+  Annex III classification
+  AI provenance
+  model accountability
+  differential privacy
+  decision lineage
+  training data governance
+
+---
+
+Regulatory alignment:
+  EU AI Act Article 10: Data governance for high-risk AI training data
+  EU AI Act Article 12: Automatic logging requirements
+  EU AI Act Article 19: Log retention obligations (minimum 10 years for certain systems)
+  EU AI Act Annex III: High-risk AI system classification
+  GDPR Article 22: Automated decision-making transparency
+  NIST AI RMF: AI risk management framework
+
+---
+
+Related standards:
+  AI Decision Logging Specification: https://github.com/synthetic-data-news/ai-decision-logging-spec
+  Educational overview: https://syntheticdatanews.com/ai-governance/decision-logging
+
+---
+
+Related educational resources:
+  AI Governance overview: https://syntheticdatanews.com/ai-governance
+  EU AI Act compliance guide: https://syntheticdatanews.com/eu-ai-act/compliance-guide
+  Synthetic data overview: https://syntheticdatanews.com/synthetic-data
+  AI audit trails: https://syntheticdatanews.com/ai-governance/audit-trails
